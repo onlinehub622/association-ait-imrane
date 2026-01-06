@@ -5,8 +5,9 @@ body {
 }
 
 .hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-              url("images/hero.jpg") center/cover no-repeat;
+ background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+            url("https://images.pexels.com/photos/4172933/pexels-photo-4172933.jpeg") center/cover no-repeat;
+
   height: 70vh;
   display: flex;
   justify-content: center;
@@ -26,7 +27,7 @@ body {
 }
 .hero {
   position: relative;
-  background-image: url("images/hero.jpg"); /* هادي الصورة الكبيرة */
+  background-image: url("https://images.pexels.com/photos/4172933/pexels-photo-4172933.jpeg"); /* هادي الصورة الكبيرة */
   background-size: cover;
   background-position: center;
   height: 75vh;
@@ -48,4 +49,5 @@ body {
 footer {
   font-size: 14px;
 }
+
 
