@@ -1,20 +1,28 @@
 body {
-  font-family: Arial, sans-serif;
-  margin-top: 56px;
+  font-family: 'Tajawal', sans-serif;
+  margin-top: 70px;
+  line-height: 1.6;
 }
 
 .hero {
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
               url("images/hero.jpg") center/cover no-repeat;
-  padding: 120px 20px;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.section {
-  padding: 60px 0;
+.hero h1 {
+  font-size: 3rem;
 }
 
-h2 {
-  margin-bottom: 25px;
+.section.about-us {
+  padding: 70px 20px;
+}
+
+.card-title {
+  color: #2b6d2b;
 }
 
 footer {
