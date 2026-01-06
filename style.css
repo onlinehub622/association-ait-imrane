@@ -1,54 +1,80 @@
+/* =============================
+   GENERAL STYLES
+   ============================= */
 body {
   font-family: 'Tajawal', sans-serif;
   margin-top: 70px;
   line-height: 1.6;
+  color: #333;
 }
 
+/* =============================
+   HEADER / HERO BACKGROUND
+   ============================= */
 .hero {
- background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-            url("https://i.postimg.cc/cL0GxLgP/AIT-AMRAN.jpg") center/cover no-repeat;
-
-  height: 70vh;
+  position: relative;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("https://i.postimg.cc/cL0GxLgP/AIT-AMRAN.jpg") center/cover no-repeat;
+  height: 75vh;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.hero h1 {
-  font-size: 3rem;
-}
-
-.section.about-us {
-  padding: 70px 20px;
-}
-
-.card-title {
-  color: #2b6d2b;
-}
-.hero {
-  position: relative;
-  background-image: url("https://i.postimg.cc/cL0GxLgP/AIT-AMRAN.jpg"); /* هادي الصورة الكبيرة */
-  background-size: cover;
-  background-position: center;
-  height: 75vh;
+  text-align: center;
   color: white;
 }
 
-.hero .overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.5); /* غمّق الصورة باش النص يبين واضح */
-}
-
-.hero-content {
+/* Container inside header to control text */
+.hero .container {
   position: relative;
   z-index: 2;
+  padding: 20px;
 }
 
+/* Text sizes */
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
 
+.hero p {
+  font-size: 1.25rem;
+  margin-top: 10px;
+}
+
+/* Button style inside hero */
+.hero .btn {
+  font-size: 1.1rem;
+  padding: 10px 25px;
+}
+
+/* =============================
+   ABOUT / SECTION
+   ============================= */
+.section {
+  padding: 60px 20px;
+}
+
+.section.about-us {
+  text-align: center;
+}
+
+/* =============================
+   CARD TITLES (for projects/goals)
+   ============================= */
+.card-title {
+  color: #2b6d2b;
+}
+
+/* =============================
+   FOOTER
+   ============================= */
 footer {
   font-size: 14px;
+  background-color: #222;
+  color: #f1f1f1;
+  text-align: center;
+  padding: 15px 0;
 }
-
-
-
