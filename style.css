@@ -24,7 +24,28 @@ body {
 .card-title {
   color: #2b6d2b;
 }
+.hero {
+  position: relative;
+  background-image: url("images/hero.jpg"); /* هادي الصورة الكبيرة */
+  background-size: cover;
+  background-position: center;
+  height: 75vh;
+  color: white;
+}
+
+.hero .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5); /* غمّق الصورة باش النص يبين واضح */
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
 
 footer {
   font-size: 14px;
 }
+
